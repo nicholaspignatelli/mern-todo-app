@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const serverUrl = 'http://localhost:4000/todos/add';
 
-const CreateTodo = (props) => {
+const CreateTodo = props => {
     // on Render itll reset...
     const [todoDescrState,setToDoDescrState] = useState('');
     const [todoResponsibleState,setToDoResponsibleState] = useState('');
