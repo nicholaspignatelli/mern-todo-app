@@ -18,8 +18,6 @@ const EditTodo = props => {
         }
         axios.post(SERVER_URL+'update/'+props.match.params.id, todo)
             .then(res => console.log(res.data));
-        
-        props.history.push('/');
     }
 
     useEffect(() => {
