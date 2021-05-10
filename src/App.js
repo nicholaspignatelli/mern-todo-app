@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import CreateToDo from "./components/createToDo.fun.jsx";
-import EditToDo from "./components/editToDo.fun.jsx";
-import ToDosList from "./components/listToDos.fun.jsx";
+import CreateToDo from "./components/createToDo.jsx";
+import EditToDo from "./components/editToDo.jsx";
+import ToDosList from "./components/listToDos.jsx";
 
 const App = props => {
     return (
