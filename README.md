@@ -1,3 +1,3 @@
 # mern-crud-app
 
-This was a fun project I took on at some point a few Sundays ago...
+Exploring with the MERN stack is on sunday afternoons... nothing too crazy :p
