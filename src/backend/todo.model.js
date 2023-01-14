@@ -2,19 +2,19 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-let Todo = new Schema({
-    todo_description: {
+let Task = new Schema({
+    description: {
         type: String
     },
-    todo_responsible: {
+    assignee: {
         type: String
     },
-    todo_priority: {
+    priority: {
         type: String
     },
-    todo_completed: {
+    isComplete: {
         type: Boolean
     }
 });
 
-module.exports = mongoose.model('Todo', Todo);
+module.exports = mongoose.model('Task', Task);
